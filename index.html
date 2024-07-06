@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="Stylesheet" type="text/css" href="Style.css"
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="container">
+    <h2><b>Registration Form</b></h2>
+    <div class="form-container"></div>
+    <form>
+        <p><h5><u>Fill Up Information</u></h5></p>
+        <div class="input-name">
+            <i class="fa fa-user lock"></i>
+            <input type="text" placeholder="First Name" class="name">
+            <span>
+                <i class="fa fa-user lock"></i>
+                <input type="text" placeholder="Last Name" class="name">
+            </span>
+        </div>
+        <div class="input-name">
+            <i class="fa fa-envelope email"></i>
+            <input type="email" placeholder="email" class="text-name">
+        </div>
+        <div class="input-name">
+            <i class="fa fa-lock lock"></i>
+            <input type="password" placeholder="Password" class="text-name">
+        </div>
+        <div class="input-name">
+            <i class="fa fa-lock lock"></i>
+            <input type="password" placeholder=" confirm password" class="text-name">
+        </div>
+        <p><h5>Gender :</h5></p>
+        <div class="input-name">
+            <input type="radio" class="radio-button" name="Gender">
+            <label style="margin-right: 10px;">male</label>
+
+            <input type="radio" class="radio-button" name="Gender">
+            <label>female</label>
+        </div>
+        <p><h5>Country :</h5></p>
+        <div class="input-name">
+            <select class="Country">
+                <option>select the Country</option>
+                <option>India</option>
+                <option>Italy</option>
+                <option>Nepal</option>
+                <option>Japan</option>
+              </select>
+              <div class="arrow"></div>
+        </div>
+        <p><h5>State :</h5></p>
+        <div class="input-name">
+            <select class="State">
+                <option>select the State</option>
+                <option>Maharashtra</option>
+                <option>Punjab</option>
+                <option>Gujarat</option>
+                <option>Rajesthan</option>
+              </select>
+              <div class="arrow"></div>
+        </div>
+        <div class="input-name">
+         <input type="checkbox" class="check-button">
+         <label for="check-button">I Accept the terms and condition</label>
+        </div>
+        <div class="input-name">
+            <input type="submit" class="button" value="Register">
+        </div>
+   </div> 
+</body>
+</html>
